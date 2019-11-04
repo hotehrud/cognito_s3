@@ -1,0 +1,15 @@
+{
+  "extends": ["airbnb", "prettier"],
+  "plugins": ["prettier"],
+  "rules": {
+    "prettier/prettier": ["error"],
+    "react/prop-types": 0,
+    "camelcase": 0,
+    "import/prefer-default-export": "off",
+    "import/no-unresolved": 0
+  },
+  "globals": {
+    "document": false,
+    "window": false
+  }
+}

@@ -1,0 +1,34 @@
+.card {
+  h3 {
+    opacity: 0.8;
+  }
+  .skill_box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    background-color: #fff;
+    figure {
+      display: inline-block;
+      img {
+        max-height: 200px;
+      }
+      figcaption {
+        text-align: center;
+      }
+    }
+  }
+  .requirement {
+    margin-left: 20px;
+    padding: 10px;
+    li {
+      &:before {
+        content: "-";
+        margin-right: 5px;
+      }
+      &::not(:last-child) {
+        margin-bottom: 10px;
+      }
+    }
+  }
+}

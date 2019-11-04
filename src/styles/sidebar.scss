@@ -1,0 +1,51 @@
+.drawer-list {
+  margin-top: 1.5rem;
+  ul li {
+    display: flex;
+    height: 40px;
+    svg {
+      position: relative;
+      bottom: 1px;
+      width: 1rem;
+      height: 1rem;
+      margin-right: 10px;
+      fill: #546e7a;
+    }
+    a {
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex;
+      align-items: center;
+      padding: 0 2rem;
+      font-weight: 400;
+      color: $main-color-inactive;
+      text-decoration: none;
+      transition: color 0.2s ease-in-out;
+      span {
+        display: flex;
+        align-items: center;
+      }
+    }
+  }
+}
+
+.made-with {
+  position: fixed;
+  bottom: 0;
+  width: inherit;
+  color: #546e7a;
+  h4 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0.4rem;
+    a {
+      display: flex;
+      img {
+        width: 1rem;
+        height: 1rem;
+        margin-left: 0.5rem;
+      }
+    }
+  }
+}

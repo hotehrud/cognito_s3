@@ -1,10 +1,10 @@
 import React from 'react';
-import useReactRouter from 'use-react-router';
+import { useHistory } from 'react-router-dom';
 
 import logo from 'assets/images/mygumi.png';
 
 const Header = ({ user, signOut }) => {
-  const { history } = useReactRouter();
+  const history = useHistory();
 
   const login = () => {
     history.push('/login');
